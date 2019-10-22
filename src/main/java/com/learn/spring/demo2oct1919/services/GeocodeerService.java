@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 public class GeocodeerService {
 
     private static final String Base = "https://maps.googleapis.com/maps/api/geocode/json";
-    private static final String KEY = "AIzaSyAHPJ7so6ZBpYPK84H5JRyLCPqRtpwkEO8";
+    private static final String KEY = "";
     private RestTemplate template;
 
     public GeocodeerService(RestTemplateBuilder builder){
